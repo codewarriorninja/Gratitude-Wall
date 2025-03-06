@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 export const InteractiveHoverButton = React.forwardRef<
   HTMLButtonElement,
-  React.ButtonHTMLAttributes<HTMLButtonElement> // Use the base type directly
+  React.ButtonHTMLAttributes<HTMLButtonElement> 
 >(({ children, className, ...props }, ref) => {
   return (
     <button
