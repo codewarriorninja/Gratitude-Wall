@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+
 export function Navbar() {
   return (
     <nav className="absolute top-0 left-0 w-full z-20 bg-transparent">

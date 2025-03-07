@@ -6,16 +6,15 @@ import Link from "next/link"
 const page = () => {
   return (
     <div>
-      
-     <SignedOut>
+     {/* <SignedOut>
       <Button>
         <Link href="/sign-in">Login</Link>
       </Button>
-      </SignedOut>
-      <SignedIn>
+      </SignedOut> */}
+      {/* <SignedIn>
         <UserButton afterSignOutUrl="/" showName/>
-      </SignedIn>
-      <h1>test</h1>
+      </SignedIn> */}
+      new
     </div>
   )
 }

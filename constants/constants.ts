@@ -8,7 +8,7 @@ export const navLink = [
         route:'/create'
     },
     {
-        label:'Posts',
+        label:'Own Posts',
         route:'/posts'
     }
 ]
